@@ -2,8 +2,11 @@
   "name": "react-chartjs",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ricky-gunawan.github.io/react-chartjs",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -12,6 +15,7 @@
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.1",
     "chart.js": "^4.0.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.0.1",
     "react-dom": "^18.2.0",
