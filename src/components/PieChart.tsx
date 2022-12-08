@@ -22,7 +22,7 @@ const PieChart = () => {
   return (
     <div className="grow bg-white rounded-lg p-2">
       <div className="text-center my-2">{`Pie Chart (Population/Year)`}</div>
-      <Pie data={data} />;
+      <Pie data={data} />
     </div>
   );
 };

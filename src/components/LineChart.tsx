@@ -22,7 +22,7 @@ const LineChart = () => {
   return (
     <div className="grow bg-white rounded-lg p-2">
       <div className="text-center my-2">{`Line Chart (Population/Year)`}</div>
-      <Line data={data} />;
+      <Line data={data} />
     </div>
   );
 };
